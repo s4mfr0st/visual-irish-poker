@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    background-image: url(mahogany.png);
+    background-size: cover;
+    position: relative;
+}
+
+
+#cardFlipDisplay {
+    display: inline-block;
+    /* background-image: url(greenfelt.png); */
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 50px;
+}
+
+.card {
+   height: 450px;
+   width: 270px;
+}
+
+.buttonContainer{
+    
+    padding: 10px;
+    display: inline-block;
+    width: 450px;
+
+}
+
+.hiddenButton {
+    display: none;
+}
+
+.gameButton {
+    height: 100px;
+    width: 204px;
+    font-size: 400%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gameButton:hover {
+    height: 100px;
+    width: 204px;
+    font-size: 400%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.colorButton {
+    height: 100px;
+    width: 204px;
+    font-size: 200%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.colorButton:hover {
+    height: 100px;
+    width: 204px;
+    font-size: 200%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.suitButton {
+    height: 100px;
+    width: 100px;
+    font-size: 300%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.suitButton:hover {
+    height: 100px;
+    width: 100px;
+    font-size: 300%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#winLoss {
+    width: 1080px;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    display: inline-block;
+}
+
+.newGameButton {
+    height: 100px;
+    width: 410px;
+    font-size: 300%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.newGameButton:hover {
+    height: 100px;
+    width: 410px;
+    font-size: 300%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardBorder {
+    padding: 1%;
+    width: 1138px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Irish Poker </title>
+</head>
+<body>
+
+    <div id='container'>
+
+        <div id='cardFlipDisplay'>
+
+            <img id='cardOne' class='card' src='gray_back.png'>
+            <img id='cardTwo' class='card' src='gray_back.png'>
+            <img id='cardThree' class='card' src='gray_back.png'>
+            <img id='cardFour' class='card' src='gray_back.png'>
+
+        </div>
+
+    <p></p>
+
+    <div id='winLoss'>
+
+        <img id='roundOne' src='nolight.png'><img id='roundTwo' src='nolight.png'><img id='roundThree' src='nolight.png'><img id='roundFour' src='nolight.png'>
+
+    </div>
+
+    <p></p>
+
+    <div id='redOrBlack' class='buttonContainer'>
+
+        <button id='red' onclick='flipCard(1)' class='colorButton'>🔴</button>
+        <button id='black' onclick='flipCard(2)' class='colorButton'>⚫</button>
+
+    </div>
+
+    <div id='higherOrLower' class='hiddenButton'>
+
+        <button id='higher' onclick='flipCard(1)' class='gameButton'>🠹</button>
+        <button id='lower' onclick='flipCard(2)' class='gameButton'>🠻</button>
+
+    </div>
+
+    <div id='insideOrOutside' class='hiddenButton'>
+
+        <button id='inside' onclick='flipCard(1)' class='gameButton'>🠺🠸</button>
+        <button id='outside' onclick='flipCard(2)' class='gameButton'>🠸🠺</button>
+
+    </div>
+
+    <div id='guessSuit' class='hiddenButton'>
+
+        <button id='clubs' onclick='flipCard(1)' class='suitButton'>♣</button>
+        <button id='diamonds' onclick='flipCard(2)' class='suitButton'>♦</button>
+        <button id='spades' onclick='flipCard(3)' class='suitButton'>♠</button>
+        <button id='hearts' onclick='flipCard(4)' class='suitButton'>♥</button>
+
+    </div>
+
+    <div id='newGame' class='hiddenButton'>
+
+        <button id='newGame' onclick='newGame()' class='newGameButton'>↻</button>
+
+    </div>
+
+    </div>
+    
+
+</body>
+
+<script src='script.js'></script>
+
+</html>
